@@ -277,6 +277,36 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Code of Conduct */
+.button.button-coc {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-coc:hover,
+.button.button-coc:focus {
+  filter: brightness(90%);
+}
+
+/* Code of Conduct */
+.button.button-gdg {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-gdg:hover,
+.button.button-gdg:focus {
+  filter: brightness(90%);
+}
+
+/* Call for Paper */
+.button.button-cfp {
+  color: #ffffff;
+  background-color: #1AB394;
+}
+.button.button-cfp:hover,
+.button.button-cfp:focus {
+  filter: brightness(90%);
+}
+
 /* dev.to */
 .button.button-dev-to {
   color: #000000;
@@ -627,6 +657,16 @@ button:hover,
 }
 .button.button-medium:hover,
 .button.button-medium:focus {
+  filter: brightness(90%);
+}
+
+/* Meetup */
+.button.button-meetup {
+  color: #ffffff;
+  background-color: #ED1C40;
+}
+.button.button-meetup:hover,
+.button.button-meetup:focus {
   filter: brightness(90%);
 }
 
@@ -1014,6 +1054,16 @@ button:hover,
 }
 .button.button-twitch:hover,
 .button.button-twitch:focus {
+  filter: brightness(90%);
+}
+
+/* Twitter */
+.button.button-twitter {
+  color: #ffffff;
+  background-color: #1D9BF0;
+}
+.button.button-twitter:hover,
+.button.button-twitter:focus {
   filter: brightness(90%);
 }
 
