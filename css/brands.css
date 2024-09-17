@@ -192,17 +192,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* BeReal */
-.button.button-bereal {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-bereal:hover,
-.button.button-bereal:focus {
-  filter: brightness(90%);
-}
-
 /* Bluesky */
 .button.button-bluesky {
   color: #FFFFFF;
@@ -266,6 +255,7 @@ button:hover,
   filter: brightness(90%);
 }
 
+<<<<<<< HEAD
 /* Clubhouse */
 .button.button-clubhouse {
   color: #1F1F1A;
@@ -307,6 +297,8 @@ button:hover,
   filter: brightness(90%);
 }
 
+=======
+>>>>>>> upstream/main
 /* dev.to */
 .button.button-dev-to {
   color: #000000;
@@ -343,7 +335,7 @@ button:hover,
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  background-color: #5865f2;
+  background-color: #161CBB;
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
@@ -503,16 +495,6 @@ button:hover,
 }
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
-  filter: brightness(90%);
-}
-
-/* Guilded */
-.button.button-guilded {
-  color: #000000;
-  background-color: #F5C400;
-}
-.button.button-guilded:hover,
-.button.button-guilded:focus {
   filter: brightness(90%);
 }
 
@@ -712,17 +694,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Partiful */
-.button.button-partiful {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
-}
-.button.button-partiful:hover,
-.button.button-partiful:focus {
-  filter: brightness(90%);
-}
-
 /* Patreon */
 .button.button-patreon {
   color: #ffffff;
@@ -776,17 +747,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* QQ */
-.button.button-qq {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #000000;
-}
-.button.button-qq:hover,
-.button.button-qq:focus {
-  filter: brightness(90%);
-}
-
 /* Read.cv */
 .button.button-read-cv {
   color: #FFFFFF;
@@ -825,8 +785,8 @@ button:hover,
   background-color: #ffffff;
   border: 1px solid black;
 }
-.button.button-rev:hover,
-.button.button-rev:focus {
+.button.button-revolut:hover,
+.button.button-revolut:focus {
   filter: brightness(90%);
 }
 
@@ -847,16 +807,6 @@ button:hover,
 }
 .button.button-signal:hover,
 .button.button-signal:focus {
-  filter: brightness(90%);
-}
-
-/* Skoob */
-.button.button-skoob {
-  color: #ffffff;
-  background-color: #3189c8;
-}
-.button.button-skoob:hover,
-.button.button-skoob:focus {
   filter: brightness(90%);
 }
 
@@ -1118,17 +1068,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* VRChat */
-.button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid black;
-}
-.button.button-vrchat:hover,
-.button.button-vrchat:focus {
-  filter: brightness(90%);
-}
-
 /* VSCO */
 .button.button-vsco {
   color: #FFFFFF;
@@ -1179,16 +1118,6 @@ button:hover,
 }
 .button.button-x:hover,
 .button.button-x:focus {
-  filter: brightness(90%);
-}
-
-/* Xing */
-.button.button-xing {
-  color: #ffffff;
-  background-color: #026466;
-}
-.button.button-xing:hover,
-.button.button-xing:focus {
   filter: brightness(90%);
 }
 
