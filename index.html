@@ -1,75 +1,47 @@
-  <!-- 
-    
-  Version 2.5.0 
-  
-  This is to help you track what version of LittleLink you forked.
-
-  -->
-  
 <!DOCTYPE html>
-<html lang="en">
+
+<!--
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
+
+<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>GDG Berlin</title>
-<!--  TODO fix the description-->
-  <meta name="description" content="Google Developer Group Berlin">
-  <meta name="author" content="GDG Berlin">
+    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <title>GDG Berlin</title>
+    <link rel="icon" type="image/png" href="images/gdgberlin.png">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <!-- TODO fix the description-->
+    <meta name="description" content="Google Developer Group Berlin">
 
+    <!-- Keywords -->
+    <meta name="keywords" content="your name, industry, and specialties">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
+    <!-- Author Information -->
+    <meta name="author" content="GDG Berlin">
 
-    <!-- Themes:
-            Auto:   css/skeleton-auto.css
-            Light:  css/skeleton-light.css
-            Dark:   css/skeleton-dark.css
-     -->
-    <link rel="stylesheet" href="css/skeleton-auto.css">
-
-    <!-- Brand Styles -->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
 
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/gdgberlin.png">
+    <!-- LittleLink Extended Stylesheet (Optional) -->
+    <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
+    <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
+         Remove comments if you've added LittleLink Extended dependencies -->
 
 </head>
 
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-
-        <!-- 
-
-          ## Getting Started with LittleLink
-
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
-
-          You can add your own brand or others brands you may need in the `css/brands.css` file. 
-
-          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
-
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
-
-          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
-
-          Edit the "Short Bio" section tell users about yourself or your brand.
-
-        -->
+<div class="container">
+    <div class="column">
 
         <!-- Your Image Here -->
         <img src="images/gdgberlin.png" class="avatar" alt="">
@@ -77,77 +49,47 @@
         <!-- Title -->
         <h1 role="heading">GDG Berlin</h1>
 
-        <!--
+        <!-- All your buttons go here -->
+        <div class="button-stack" role="navigation">
 
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+            <!-- Bevy -->
+            <a class="button button-gdg" href="https://gdg.community.dev/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gdg.svg" alt="Website Icon">Next event</a>
 
-          2.) Replace the # in href="#" with the desired target URL for the button.
+            <!-- CfP -->
+            <a class="button button-cfp" href="https://docs.google.com/forms/d/e/1FAIpQLSe2ds_mg0TVPz3qVwLg9irlyhJU8WusR71n1hHDgOUe6_zZfg/viewform" target="_blank" rel="noopener" role="button">Submit your talk</a>
 
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+            <!-- Meetup -->
+            <a class="button button-meetup" href="https://www.meetup.com/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/meetup.svg" alt="Meetup Logo">Meetup</a><br>
 
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+            <!-- Code of Conduct -->
+            <a class="button button-coc" href="https://berlincodeofconduct.org/" target="_blank" rel="noopener" role="button">Berlin Code of Conduct</a>
 
-          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
+            <!-- LinkedIn -->
+            <a class="button button-linked" href="https://www.linkedin.com/company/gdgberlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
 
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+            <!-- Bluesky -->
+            <a class="button button-bluesky" href="https://bsky.app/profile/gdg-berlin.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
 
-          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+            <!-- X -->
+            <a class="button button-twitter" href="https://twitter.com/GDGBerlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Twitter</a>
 
-          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree. 
-          This can improve the experience for assistive technology users by hiding what is essentially duplicated
+            <!-- Threads -->
+            <a class="button button-threads" href="https://www.threads.net/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/threads.svg" alt="Threads Logo">Threads</a>
 
-        -->
+            <!-- YouTube -->
+            <a class="button button-yt" href="https://www.youtube.com/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">Re-watch events</a>
 
-        <!-- Bevy -->
-        <a class="button button-gdg" href="https://gdg.community.dev/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gdg.svg" alt="Website Icon">Check out our next event</a><br>
+            <!-- Email -->
+            <a class="button button-default" href="mailto:gdg-berlin@googlegroups.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a>
+        </div>
 
-        <!-- Meetup -->
-        <a class="button button-meetup" href="https://www.meetup.com/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/meetup.svg" alt="Meetup Logo">Meetup</a><br>
+        <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+        <footer>
+            <p>Powered by <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a> & <a href="https://simpleicons.org" target="_blank" rel="noopener" role="button">Simple Icons</a>.</p>
+        </footer>
 
-        <!-- Code of Conduct -->
-        <a class="button button-coc" href="https://berlincodeofconduct.org/" target="_blank" rel="noopener" role="button">Berlin Code of Conduct</a>
-
-        <!-- LinkedIn -->
-        <a class="button button-linked" href="https://www.linkedin.com/company/gdgberlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a><br>
-        
-        <!-- Bluesky -->
-        <a class="button button-bluesky" href="https://bsky.app/profile/gdg-berlin.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a><br>
-
-        <!-- X -->
-        <a class="button button-twitter" href="https://twitter.com/GDGBerlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Twitter</a><br>
-
-        <!-- Threads -->
-        <a class="button button-threads" href="https://www.threads.net/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/threads.svg" alt="Threads Logo">Threads</a><br>
-
-        <!-- YouTube -->
-        <a class="button button-yt" href="https://www.youtube.com/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">Re-watch events</a><br>
-
-        <!-- Email -->
-        <a class="button button-default" href="mailto:gdg-berlin@googlegroups.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a><br>
-
-        <br>
-        <!-- 
-            Footer:
-            This includes a link to privacy.html page which can be setup for your Privacy Policy.
-            This also includes a link to the LittleLink repository to make forking LittleLink easier.
-            You can edit or remove anything here to make your own footer.
-        -->
-        <p>Powered by <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a> & <a href="https://simpleicons.org" target="_blank" rel="noopener" role="button">Simple Icons</a>.</p>
-
-      </div>
     </div>
-  </div>
-
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
 </body>
 
 </html>
