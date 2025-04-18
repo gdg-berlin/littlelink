@@ -108,6 +108,7 @@
 .button-bluesky {
 	--button-text:#FFFFFF;
 	--button-background:#1185FE;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Bluesky Alt */
@@ -144,32 +145,22 @@
 
 /* Code of Conduct */
 .button.button-coc {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-coc:hover,
-.button.button-coc:focus {
-  filter: brightness(90%);
+	--button-text: #ffffff;
+	--button-background: #000000;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Code of Conduct */
 .button.button-gdg {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-gdg:hover,
-.button.button-gdg:focus {
-  filter: brightness(90%);
+	--button-text:#ffffff;
+	background-image: linear-gradient(50deg,#a30eff,#01ddff);
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Call for Paper */
 .button.button-cfp {
-  color: #ffffff;
-  background-color: #1AB394;
-}
-.button.button-cfp:hover,
-.button.button-cfp:focus {
-  filter: brightness(90%);
+	--button-text:#ffffff;
+	--button-background:#1AB394;
 }
 
 /* dev.to */
@@ -360,6 +351,7 @@
 .button-linked {
 	--button-text:#ffffff;
 	--button-background:#2867b2;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Mailchimp */
@@ -391,12 +383,9 @@
 
 /* Meetup */
 .button.button-meetup {
-  color: #ffffff;
-  background-color: #ED1C40;
-}
-.button.button-meetup:hover,
-.button.button-meetup:focus {
-  filter: brightness(90%);
+	--button-text:#ffffff;
+	--button-background:#ED1C40;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Microsoft */
@@ -596,12 +585,9 @@
 
 /* Twitter */
 .button.button-twitter {
-  color: #ffffff;
-  background-color: #1D9BF0;
-}
-.button.button-twitter:hover,
-.button.button-twitter:focus {
-  filter: brightness(90%);
+	--button-text:#ffffff;
+	--button-background:#1D9BF0;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Unsplash */
