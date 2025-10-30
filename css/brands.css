@@ -163,6 +163,12 @@
 	--button-background:#1AB394;
 }
 
+/* DevFest */
+.button.button-devfest {
+	--button-text:#ffffff;
+	--button-background:#1bb395;
+}
+
 /* dev.to */
 .button-dev-to {
 	--button-text:#000000;
