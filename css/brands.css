@@ -360,6 +360,12 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* Luma */
+.button-luma {
+    --button-text:#ffffff;
+    --button-background:#000000;
+}
+
 /* Mailchimp */
 .button-mailchimp {
 	--button-text:#000000;
@@ -397,13 +403,6 @@
 .button-medium {
 	--button-text:#ffffff;
 	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-/* Meetup */
-.button.button-meetup {
-	--button-text:#ffffff;
-	--button-background:#ED1C40;
 	--button-border:1px solid #FFFFFF;
 }
 
