@@ -9,12 +9,13 @@
 
 <html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>GDG Berlin</title>
+    <!-- TODO x-icon -->
     <link rel="icon" type="image/png" href="images/gdgberlin.png">
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
@@ -24,7 +25,12 @@
     <!-- Keywords -->
     <meta name="keywords" content="your name, industry, and specialties">
 
+    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <meta rel="canonical" href="https://gdg-berlin.com">
+
     <!-- Author Information -->
+    <meta name="author" content="Your Name">
+
     <meta name="author" content="GDG Berlin">
 
     <!-- Stylesheets -->
@@ -37,68 +43,75 @@
     <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
          Remove comments if you've added LittleLink Extended dependencies -->
 
-</head>
+  </head>
 
 <body>
-<div class="container">
-    <div class="column">
 
-        <!-- Your Image Here -->
-        <img src="images/gdgberlin.png" class="avatar" alt="">
+    <div class="container">
+        <div class="column">
 
-        <!-- Title -->
-        <h1 role="heading">GDG Berlin</h1>
+            <!--
+              By default, the Avatar is rounded. Use the following:
+              - avatar--rounded: Automatically rounds the image
+              - avatar--soft: Slightly rounds the image
+              - avatar--none: Removes any rounding
 
-        <!-- All your buttons go here -->
-        <div class="button-stack" role="navigation">
+              Be sure to replace the src with your own image path and update the alt text
+              TODO: srcset="images/avatar@2x.png 2x"
+            -->
+            <img class="avatar avatar--rounded" src="images/gdgberlin.png"  alt="TODO">
 
-            <!-- DevFest Berlin -->
-            <a class="button button-devfest" href="https://2025.devfest.berlin/" target="_blank" rel="noopener" role="button">DevFest Berlin 2025</a>
-            
-            <!-- DevFest Berlin agenda -->
-            <a class="button button-devfest" href="https://devfest-berlin-2025.sessionize.com/" target="_blank" rel="noopener" role="button">DevFest 2025: Agenda</a>
-            
-            <!-- DevFest Berlin ticket -->
-            <a class="button button-devfest" href="https://www.eventbrite.com/e/devfest-berlin-2025-tickets-1850383018419" target="_blank" rel="noopener" role="button">DevFest Berlin: Ticketing</a>
-            
-            <!-- Bevy -->
-            <a class="button button-gdg" href="https://gdg.community.dev/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gdg.svg" alt="Website Icon">Next event</a>
+            <!-- Replace with your name or brand -->
+            <h1>
+              <div>GDG Berlin</div>
+            </h1>
 
-            <!-- CfP -->
-            <a class="button button-cfp" href="https://docs.google.com/forms/d/e/1FAIpQLSe2ds_mg0TVPz3qVwLg9irlyhJU8WusR71n1hHDgOUe6_zZfg/viewform" target="_blank" rel="noopener" role="button">Submit your talk</a>
+            <!-- All your buttons go here -->
+            <div class="button-stack" role="navigation">
 
-            <!-- Meetup -->
-            <a class="button button-meetup" href="https://www.meetup.com/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/meetup.svg" alt="Meetup Logo">Meetup</a><br>
+                <!-- DevFest Berlin ticket -->
+                <a class="button button-devfest" href="https://www.eventbrite.com/e/devfest-berlin-2025-tickets-1850383018419" target="_blank" rel="noopener" role="button">DevFest Berlin: Ticketing</a>
 
-            <!-- Code of Conduct -->
-            <a class="button button-coc" href="https://berlincodeofconduct.org/" target="_blank" rel="noopener" role="button">Berlin Code of Conduct</a>
+                <!-- Bevy -->
+                <a class="button button-gdg" href="https://gdg.community.dev/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gdg.svg" alt="Website Icon">Next event</a>
 
-            <!-- LinkedIn -->
-            <a class="button button-linked" href="https://www.linkedin.com/company/gdgberlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+                <!-- CfP -->
+                <a class="button button-cfp" href="https://docs.google.com/forms/d/e/1FAIpQLSe2ds_mg0TVPz3qVwLg9irlyhJU8WusR71n1hHDgOUe6_zZfg/viewform" target="_blank" rel="noopener" role="button">Submit your talk</a>
 
-            <!-- Bluesky -->
-            <a class="button button-bluesky" href="https://bsky.app/profile/gdg-berlin.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
+                <!-- Meetup -->
+                <a class="button button-meetup" href="https://www.meetup.com/gdg-berlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/meetup.svg" alt="Meetup Logo">Meetup</a><br>
 
-            <!-- X -->
-            <a class="button button-twitter" href="https://twitter.com/GDGBerlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Twitter</a>
+                <!-- Code of Conduct -->
+                <a class="button button-coc" href="https://berlincodeofconduct.org/" target="_blank" rel="noopener" role="button">Berlin Code of Conduct</a>
 
-            <!-- Threads -->
-            <a class="button button-threads" href="https://www.threads.net/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/threads.svg" alt="Threads Logo">Threads</a>
+                <!-- LinkedIn -->
+                <a class="button button-linked" href="https://www.linkedin.com/company/gdgberlin/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
 
-            <!-- YouTube -->
-            <a class="button button-yt" href="https://www.youtube.com/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">Re-watch events</a>
+                <!-- Bluesky -->
+                <a class="button button-bluesky" href="https://bsky.app/profile/gdg-berlin.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
 
-            <!-- Email -->
-            <a class="button button-default" href="mailto:gdg-berlin@googlegroups.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a>
-        </div>
+                <!-- X -->
+                <a class="button button-twitter" href="https://twitter.com/GDGBerlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Twitter</a>
 
-        <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
-        <footer>
-            <p>Powered by <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a> & <a href="https://simpleicons.org" target="_blank" rel="noopener" role="button">Simple Icons</a>.</p>
-        </footer>
+                <!-- Threads -->
+                <a class="button button-threads" href="https://www.threads.net/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/threads.svg" alt="Threads Logo">Threads</a>
+
+                <!-- YouTube -->
+                <a class="button button-yt" href="https://www.youtube.com/@gdgberlin" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">Re-watch events</a>
+
+                <!-- Email -->
+                <a class="button button-default" href="mailto:gdg-berlin@googlegroups.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a>
+
+      </div>
+
+      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+      <footer>
+          <p>Powered by <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a> & <a href="https://simpleicons.org" target="_blank" rel="noopener" role="button">Simple Icons</a>.</p>
+      </footer>
 
     </div>
-</div>
+  </div>
+
 </body>
 
 </html>
