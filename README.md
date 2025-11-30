@@ -1,3 +1,13 @@
+GDG Berlin Page
+======
+
+* It's just HTML & CSS, update it manually
+* Use `make` to purge & minify CSS
+* Push to `main` triggers GitHub Action to publish the page
+* There is no step 4
+
+----------
+
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
